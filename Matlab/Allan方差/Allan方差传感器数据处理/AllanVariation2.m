@@ -7,7 +7,7 @@ clear;
 %读取数据，初始化变量，将电压转换成加速度，加速度=电压/分辨率*9.8
 %150714117分辨率=（1.336+0.045）V/g=1.381V/g
 %1607072013分辨率=（1.163-0.040）V/g=1.123V/g    
-data = xlsread('150714117.xlsx','Sensor','B:B');%读取数据
+data = xlsread('NI9239.xlsx','NI9239','B:B');%读取数据
 data = data/1.381;  %V->g
 
 data_length = length(data); %数据数量

@@ -1,0 +1,3 @@
+若电脑中由mysql数据库及jre,直接双击一个可以运行。也可以在命令行中用java -jar PWKeeper.jar命令运行，注意在命令行中运行时要先移动到jar报所在路径，否则程序读取不到MySqlAccount.properties配置文件。
+运行之前要先修改MySqlAccount.properties配置文件，填入自己的MySQL数据库账号和密码。
+运行之后默认密码是1234。
